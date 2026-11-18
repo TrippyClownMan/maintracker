@@ -1,8 +1,8 @@
 App(
-    appid="maintracker",
-    name="MainTracker",
+    appid="maintenance_tracker_v2",
+    name="Maintenance_tracker_v2",
     apptype=FlipperAppType.EXTERNAL,
-    entry_point="maintracker_app",
+    entry_point="maintenance_tracker_v2_app",
     requires=["gui", "storage", "nfc"],
     stack_size=4 * 1024,
     fap_category="Tools",
